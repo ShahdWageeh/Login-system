@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register</title>
+  </head>
+  <body>
+    <section class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="container w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input id="Uname" type="text" name="uname" placeholder="Enter your name" class="form-control bg-transparent text-white my-3">
+            <input id="email" type="email" name="email" placeholder="Enter your email" class="form-control bg-transparent text-white my-3">
+            <p id="emailInvalid" class="text-danger"></p>
+            <input id="pass" type="password" name="pass" placeholder="Enter your password" class="form-control bg-transparent text-white">
+            <button id="btn" class="w-100 btn my-3 fs-5 p-1">Sign Up</button>
+            <p class="text-white text-center fs-5">You have an account? <a href="index.html" class="text-white text-decoration-none">Sign In</a></p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
